@@ -132,7 +132,7 @@ export default function App() {
               justifyContent: 'center',
               flexShrink: 0
             }}>
-              <img src="public/logo.png" alt="Logo" style={{width:'100%',height:'100%',objectFit:'contain'}} />
+              <img src="/logo.png" alt="Logo" style={{width:'100%',height:'100%',objectFit:'contain'}} />
             </div>
 
             {/* Element B — Brand Text */}
@@ -248,7 +248,7 @@ export default function App() {
             >
               <div className="aspect-[4/5] bg-off border border-border overflow-hidden relative group">
                 <img 
-                  src="public/lance-hero.jpg" 
+                  src="/lance-hero.jpg" 
                   alt="Lance Tripp" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -304,7 +304,7 @@ export default function App() {
             <div className="relative">
               <div className="aspect-[3/4] bg-white border border-border p-4 shadow-xl">
                 <img 
-                  src="public/lance-about.jpg" 
+                  src="/lance-about.jpg" 
                   alt="Lance Tripp" 
                   className="w-full h-full object-cover grayscale"
                   referrerPolicy="no-referrer"
